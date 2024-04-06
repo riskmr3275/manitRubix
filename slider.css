@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(132, 127, 127);
+}
+.slider{
+    width: 65vh;
+    height:500px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slide img{
+   height: 100%;
+   width: 100%;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slides input{
+    display: none;
+}
+
+.auto{
+    position: absolute;
+    display: flex;
+    width: 65vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 460px ;
+}
+.auto div{
+    border: 2px solid  rgb(132, 127, 127);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.auto div:not(:last-child){
+    margin-right: 20px;
+}
+#radio1:checked ~ .auto .auto-bt1{
+    background:  rgb(132, 127, 127);
+}
+#radio2:checked ~ .auto .auto-bt2{
+    background:  rgb(132, 127, 127);
+}
+#radio3:checked ~ .auto .auto-bt3{
+    background:  rgb(132, 127, 127);
+}
+#radio4:checked ~ .auto .auto-bt4{
+    background:  rgb(132, 127, 127);
+}
+
+.nav-manual{
+    position: absolute;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vh;
+}
+.manual-btn{
+    border: 2px solid  rgb(132, 127, 127);
+    padding:5px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+.manual-btn a:hover{
+    background: rgb(132, 127, 127);
+}
+.nav-manual label:not(:last-child){
+    margin-right: 20px;
+}
+#radio1:checked ~ .first
+{
+    margin-left: 0;
+}
+#radio2:checked ~ .first
+{
+    margin-left: -20%;
+}#radio3:checked ~ .first
+{
+    margin-left: -40%;
+}#radio4:checked ~ .first
+{
+    margin-left: -60%;
+}
+.slide-text{
+    display: flex;
+    position: absolute;
+    margin-top: 90vh;
+    width: 500px;
+    height: 30px;
+    padding:0;
+    overflow: hidden;
+}
+.slider-text p{
+    padding: 0;
+    margin-top: 0;
+    animation-name: scroll;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes scroll{
+    from{
+        margin-left: 100%;
+        width: 200%;
+    }
+    to{
+        margin-left: -80%;
+        width: 200%;
+    }
+}
+@media (max-width:500px) {
+    .slider{
+            margin-left: 20%;
+    }
+}

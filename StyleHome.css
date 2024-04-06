@@ -1,0 +1,388 @@
+.homeImage {
+     background:  #e9f4f8;
+    height: 400px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+ 
+@font-face {
+    font-family: "myFont";
+    src: url("Teko-VariableFont_wght.ttf");
+}
+
+ 
+.hello1 {
+    text-align: center;
+    color: rgb(197, 229, 215);
+    font-family: "myFont";
+    
+}
+.Reco
+{
+  color: #3d383f;
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 50px;
+  font-weight: 700px;
+  background-color: #f8f7f8;
+}
+#front {
+    height: 200px;
+    width: 100%;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.icon {
+    text-align: center;
+    margin-top: 60px;
+
+    border: 5px;
+
+}
+ 
+
+.let {
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+body {
+    margin: 0px;
+}
+
+#pet-select {
+    width: 150px;
+    margin-left: 30px;
+    height: 30px;
+    border: 0px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    border-radius: 3px;
+    text-align: center;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-size: px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    
+    left: 16px;
+}
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.find {
+    color: rgb(94, 87, 134);
+    font-size: 30px;
+    /* border-radius: 5px; */
+    padding: 20px;
+    /* border: 2px solid rgb(254, 210, 210); */
+}
+
+.parent {
+    display: flex;
+    box-shadow: 10px #c9a2e1;
+    padding: 2em 4em;
+}
+
+.parent .child {
+    width: 50%;
+}
+
+.parent .child:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.parent .naam {
+    width: 60%;
+    padding: 0 2em;
+    text-align: justify;
+}
+
+#img11 {
+    height: 300px;
+    width: 410px;
+    border: 2px solid rgb(218, 46, 46);
+    border-radius: 8px;
+}
+
+.footer {
+
+    border: 1px solid rgba(238, 236, 242, 0.902);
+    background:  #F5F5F5;
+    height: 500px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 20px;
+
+}
+
+#con {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(19, 55, 87);
+}
+
+.reg {
+    float: right;
+    padding: 10px;
+    background-color: #c9a2e1;
+    border: 1px;
+    color: white;
+    border-radius: 4px;
+}
+
+.mend {
+    padding-left: 65px;
+    height: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #c9a2e1;
+    background:  #d7c6c6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.icon img {
+    height: 15px;
+    width: 15px;
+    padding-left: 10px;
+}
+
+.icon1 {
+    align-items: center;
+    margin-left: 550px;
+    position: relative;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+.page {
+    padding-left: 480px;
+    margin-bottom: 20px;
+}
+
+.page a {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 20px;
+}
+
+.page a:hover {
+    background-color: rgba(232, 181, 16, 0.379);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contain {
+    margin-left: 550px;
+}
+
+.mape {
+    margin-left: 250px;
+    margin-top: 20px;
+
+}
+.header
+{
+    height: 200px;
+    width: 100%;
+    /* align-items: center; */
+    display: flex;
+    background:  #F5F5F5;
+    
+}
+
+.top-left img {
+    height: 150px;
+     padding-top: 20px;
+    padding-left: 20px;
+    left: 16px;
+}
+
+.top-right img {
+    height: 150px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+ 
+.colName
+{
+    color: black;
+    padding-left: 350px;
+    
+}
+.colName h1{
+    letter-spacing: 5px;
+    font-weight: 1000px;
+}
+.colName h2{
+    letter-spacing: 5px;
+    font-weight: 1000px;
+    color: #b985da;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    align-items: center;
+    align-self: center;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+  .slider{
+    width: 100%;
+    height:500px;
+    object-fit: cover;
+    /* border-radius: 15px; */
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slide img{
+   height: 100%;
+   width: 100%;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slides input{
+    display: none;
+}
+
+.auto{
+    position: absolute;
+    display: flex;
+    width: 65vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 460px ;
+}
+.auto div{
+    border: 2px solid  rgb(132, 127, 127);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.auto div:not(:last-child){
+    margin-right: 20px;
+}
+ 
+
+.nav-manual{
+    position: absolute;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vh;
+}
+.manual-btn{
+    border: 2px solid  rgb(132, 127, 127);
+    padding:5px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+.manual-btn a:hover{
+    background: rgb(132, 127, 127);
+}
+.nav-manual label:not(:last-child){
+    margin-right: 20px;
+}
+#radio1:checked ~ .first
+{
+    margin-left: 0;
+}
+#radio2:checked ~ .first
+{
+    margin-left: -20%;
+}#radio3:checked ~ .first
+{
+    margin-left: -40%;
+}#radio4:checked ~ .first
+{
+    margin-left: -60%;
+}
+ 
+@keyframes scroll{
+    from{
+        margin-left: 100%;
+        width: 200%;
+    }
+    to{
+        margin-left: -80%;
+        width: 200%;
+    }
+}
+@media (max-width:500px) {
+    .slider{
+            margin-left: 20%;
+    }
+}
